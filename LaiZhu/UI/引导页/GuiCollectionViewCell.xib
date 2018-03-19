@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GuiCollectionViewCell" id="gTV-IL-0wX" customClass="GuiCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="560"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="560"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gfv-s5-Gnu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="560"/>
+                    </imageView>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ClC-Mq-rZh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="560"/>
+                    </button>
+                    <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0d-9g-WQX">
+                        <rect key="frame" x="250" y="20" width="50" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="FuU-ea-B48"/>
+                            <constraint firstAttribute="height" constant="30" id="bNn-ZX-pLC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="3跳过"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ClC-Mq-rZh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="62D-qj-oja"/>
+                <constraint firstItem="P0d-9g-WQX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="DhK-DD-z93"/>
+                <constraint firstItem="gfv-s5-Gnu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GlU-hy-sba"/>
+                <constraint firstAttribute="trailing" secondItem="P0d-9g-WQX" secondAttribute="trailing" constant="20" id="YTH-1X-QXG"/>
+                <constraint firstItem="gfv-s5-Gnu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="d6c-ZS-L2x"/>
+                <constraint firstAttribute="bottom" secondItem="ClC-Mq-rZh" secondAttribute="bottom" id="eHS-rG-Kmj"/>
+                <constraint firstAttribute="trailing" secondItem="gfv-s5-Gnu" secondAttribute="trailing" id="fce-FH-BZK"/>
+                <constraint firstAttribute="bottom" secondItem="gfv-s5-Gnu" secondAttribute="bottom" id="mMX-2F-SHo"/>
+                <constraint firstItem="ClC-Mq-rZh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rEt-iK-m8x"/>
+                <constraint firstAttribute="trailing" secondItem="ClC-Mq-rZh" secondAttribute="trailing" id="wgd-eC-vAl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <connections>
+                <outlet property="button" destination="ClC-Mq-rZh" id="w6D-OD-DgD"/>
+                <outlet property="leadingImage" destination="gfv-s5-Gnu" id="0QJ-lj-QH2"/>
+                <outlet property="passBtn" destination="P0d-9g-WQX" id="Bxj-rW-RFJ"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

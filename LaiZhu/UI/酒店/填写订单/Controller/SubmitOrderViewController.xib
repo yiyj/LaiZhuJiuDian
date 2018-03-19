@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubmitOrderViewController">
+            <connections>
+                <outlet property="bottomView" destination="Md7-9b-FCN" id="so9-9d-ZtP"/>
+                <outlet property="total" destination="kAJ-Rx-XU8" id="D3a-EP-Ggk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Md7-9b-FCN">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSQ-he-aWi">
+                            <rect key="frame" x="265" y="0.0" width="110" height="50"/>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="110" id="OD6-pK-a3w"/>
+                            </constraints>
+                            <state key="normal" title="Go to pay" backgroundImage="附近去预订"/>
+                            <connections>
+                                <action selector="goToPayClick:" destination="-1" eventType="touchUpInside" id="Sck-6t-km2"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCQ-ib-cox">
+                            <rect key="frame" x="15" y="0.0" width="44" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="wgl-eR-wGo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2k-4H-Y1D">
+                            <rect key="frame" x="59" y="4" width="10" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="10" id="FgC-r9-5fe"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="textColor" red="0.74901960784313726" green="0.63529411764705879" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="368.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAJ-Rx-XU8">
+                            <rect key="frame" x="69" y="0.0" width="196" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.74901960784313726" green="0.63529411764705879" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="3Sz-Z0-2K9"/>
+                        <constraint firstAttribute="trailing" secondItem="uSQ-he-aWi" secondAttribute="trailing" id="4Fl-7r-YCI"/>
+                        <constraint firstItem="w2k-4H-Y1D" firstAttribute="leading" secondItem="GCQ-ib-cox" secondAttribute="trailing" id="6WS-41-2ZC"/>
+                        <constraint firstAttribute="bottom" secondItem="GCQ-ib-cox" secondAttribute="bottom" id="9We-4l-q9o"/>
+                        <constraint firstAttribute="bottom" secondItem="w2k-4H-Y1D" secondAttribute="bottom" id="B83-PC-DvQ"/>
+                        <constraint firstItem="GCQ-ib-cox" firstAttribute="top" secondItem="Md7-9b-FCN" secondAttribute="top" id="JZV-vl-iko"/>
+                        <constraint firstItem="uSQ-he-aWi" firstAttribute="leading" secondItem="kAJ-Rx-XU8" secondAttribute="trailing" id="MfS-AA-AAd"/>
+                        <constraint firstItem="GCQ-ib-cox" firstAttribute="leading" secondItem="Md7-9b-FCN" secondAttribute="leading" constant="15" id="SU4-gP-Tm1"/>
+                        <constraint firstItem="w2k-4H-Y1D" firstAttribute="top" secondItem="Md7-9b-FCN" secondAttribute="top" constant="4" id="neC-DV-Z7L"/>
+                        <constraint firstItem="kAJ-Rx-XU8" firstAttribute="top" secondItem="Md7-9b-FCN" secondAttribute="top" id="qzv-I7-MK4"/>
+                        <constraint firstItem="uSQ-he-aWi" firstAttribute="top" secondItem="Md7-9b-FCN" secondAttribute="top" id="stx-QP-RQA"/>
+                        <constraint firstAttribute="bottom" secondItem="kAJ-Rx-XU8" secondAttribute="bottom" id="vP5-CC-h6E"/>
+                        <constraint firstAttribute="bottom" secondItem="uSQ-he-aWi" secondAttribute="bottom" id="xY9-OQ-syP"/>
+                        <constraint firstItem="kAJ-Rx-XU8" firstAttribute="leading" secondItem="w2k-4H-Y1D" secondAttribute="trailing" id="zPS-yu-Vcf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Md7-9b-FCN" secondAttribute="bottom" id="89B-GP-uQ8"/>
+                <constraint firstItem="Md7-9b-FCN" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="Fgv-IY-iwr"/>
+                <constraint firstItem="Md7-9b-FCN" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Mh4-8S-hPf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="附近去预订" width="80" height="27"/>
+    </resources>
+</document>

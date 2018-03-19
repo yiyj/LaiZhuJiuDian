@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllOrderCell" rowHeight="96" id="KGk-i7-Jjw" customClass="AllOrderCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="95.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Le Meridien Munich Hotel Chongqing hongqihegou shop" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJr-Nz-GHh">
+                        <rect key="frame" x="15" y="10" width="214" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.23921568627450979" green="0.25882352941176467" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥ 20000.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dls-nc-KZK">
+                        <rect key="frame" x="230" y="18.5" width="80" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="ZQd-wi-CoN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.23921568627450979" green="0.25882352941176467" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="non-payment" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODx-Up-Tg8">
+                        <rect key="frame" x="210" y="52" width="100" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="8zA-3r-Cc8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.74901960784313726" green="0.63529411764705879" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 between standard rooms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zty-r6-ofL">
+                        <rect key="frame" x="15" y="52" width="190" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017.05.11-2017.05.14 three nights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWz-2m-HPu">
+                        <rect key="frame" x="15" y="71.5" width="166.5" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.75686274509803919" green="0.75686274509803919" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ODx-Up-Tg8" firstAttribute="centerY" secondItem="Zty-r6-ofL" secondAttribute="centerY" id="9Uf-nE-Ltw"/>
+                    <constraint firstItem="Dls-nc-KZK" firstAttribute="centerY" secondItem="XJr-Nz-GHh" secondAttribute="centerY" id="DuW-xK-ENt"/>
+                    <constraint firstItem="OWz-2m-HPu" firstAttribute="top" secondItem="Zty-r6-ofL" secondAttribute="bottom" constant="5" id="ESE-Ur-mgZ"/>
+                    <constraint firstItem="XJr-Nz-GHh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ITB-tG-8hi"/>
+                    <constraint firstAttribute="bottom" secondItem="OWz-2m-HPu" secondAttribute="bottom" constant="12" id="YBr-Z2-ThD"/>
+                    <constraint firstAttribute="trailing" secondItem="Dls-nc-KZK" secondAttribute="trailing" constant="10" id="bKm-yy-1Io"/>
+                    <constraint firstItem="XJr-Nz-GHh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="cxS-3P-0Np"/>
+                    <constraint firstItem="Dls-nc-KZK" firstAttribute="leading" secondItem="XJr-Nz-GHh" secondAttribute="trailing" constant="1" id="kLW-YD-vQq"/>
+                    <constraint firstAttribute="trailing" secondItem="ODx-Up-Tg8" secondAttribute="trailing" constant="10" id="kXk-xo-0yo"/>
+                    <constraint firstItem="Zty-r6-ofL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="wWG-3K-m2z"/>
+                    <constraint firstItem="Zty-r6-ofL" firstAttribute="top" secondItem="XJr-Nz-GHh" secondAttribute="bottom" constant="8" id="yTm-yP-bp5"/>
+                    <constraint firstItem="OWz-2m-HPu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="z53-BS-tKi"/>
+                    <constraint firstItem="ODx-Up-Tg8" firstAttribute="leading" secondItem="Zty-r6-ofL" secondAttribute="trailing" constant="5" id="zTB-4w-ekP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="35" y="80"/>
+        </tableViewCell>
+    </objects>
+</document>

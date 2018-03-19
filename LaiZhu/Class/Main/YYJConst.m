@@ -1,0 +1,27 @@
+
+#import <UIKit/UIKit.h>
+
+NSInteger const ToastTime = 1;
+
+NSInteger const pageSize = 10;
+
+NSString *const UmAppkey =  @"5a1d27a0b27b0a255e0000d9";
+
+NSString *const BaiduKey =  @"";
+
+//WeChat
+NSString * const  WeChatAppKey = @"wxa586d2d0abdcd06a";
+//APPID对应的接口密码
+NSString * const  WeChatAppSecret  = @"b221818b4ad77e182146d5f30939ed47";
+
+//AliPay
+//应用注册scheme,在AlixPayDemo-Info.plist定义URL types
+NSString * const AliPayUrlSchemes = @"FireFightingSchool";
+//支付宝分配给开发者的应用ID 商户ID
+NSString * const AliPayPartner = @"";
+//收款人支付宝账号，支付宝中有手机类型、电子邮件类型的支付宝账号是都可以用这个参数的。
+NSString * const AliPaySellerId = @"394704777@qq.com";
+//接口名称 回调地址
+NSString * const AliPayCallBack = @"http://www.baidu.com";
+//私匙
+NSString * const AliPayPrivateKey = @"MIIEowIBAAKCAQEA727slk44sOh7+zabg1GEJRvcM06+hQCW01kouSO5fOIQiAgKpnxh5YkI1GAtMxJYQlrNUz0jNLs4Hthi31cIP/uXKWFplSv6eWG4gZa/udEKGQHlKRiWa96OzQFaTMUNPAXiXPMJqrhwVGWxZsvJJfjZSSbnKhCjadm/wLvN5dPnseZMvyKr5C3v9GXTL+y3xkQLdM+eQsJpTp0Wokammec2IQwxmXbHNnTBPSMmggCNeweOADu79LZMYFW8xC++Q742kMkMX7pjAdJn2nc1qw9MnZFtwVOgZUPu24ZNci65K54NDPQP7cFd+/ewF5+9bxi+HHz12I5hAkstyD05dQIDAQABAoIBAQC66mNz61jCcpvnP3gkCg0ZUyiSPVTqS81y7NWnwsXZQjoZl/2Ifu2F3XaxJOvkRNv14SENbFsBnW5wVgjJxg3AtU4Kletw8sY04B7Du8Ws8A3r+9jEPlefmjzsubOe3u43/3f5jBnt1tKKcGEPmONM63nla6Nm6VpJFh5l/bb9RO+UYMo/V3cGW/Ua3/O9VHi43GjyqRRawQ+HEuUrT9etO5bQlOWThr6kQggt3MZXA+MHx6l+mRR3zIg4+zQw5ZiI5x1BrAgmnCxST/eJXGVQoovnD8d55jGShGG40G7hHVZNRzkVWUcwwQUh+yDfrYenO0q4eX62hiEQql26EwwBAoGBAP6s92tBM2Fcsi552CfpTuafT+sADauvjmZ4uqEpM8quMODhimoqpK/qqgd//1PVOgvvDrR+xixGo9qKWRDUmnVh8uJJbAjs7won3M36DwC1aJJlWvOI0BIIxeAVVKixzXNjf8uHWHJCyKvqvbyRP4Iu/fB+rffouY3kkv6hHU2BAoGBAPCtqqCF5u7fQO9O/uuG8XLlQlsVkRsyLJBrflfmY8YwcmmP8rZJvdXK3OMHrjRjcyn5Mx3TOh8unMmIjWnGuVB0g9C6KX8BxNFMYgMl6LLobBI6E2YRQaPLLL8E3qIr/R8FFffN6OP62YXjthbRK12VA1N0+ih1U4LAohsYgo31AoGAXZIRac/P3/Ld6KON3sQi4CsigtZHL5BWAqJS98mapNoxTT6wy2cVkSjoBc9qcVPDewT/YyO9DiF6LF5ucPecNIqjYa7WScU74oBY6Tj58Cm23SruKtJWmHmusjFEJKMHOGETYCU/QuP0tO2PfsvjCKLZXFY+9voDyvVzaKirioECgYBY7lLV7aRfL282/eGD9eDRq5TRQy7S9b8xvgZ5RFAps00TZHUylhznGoZz/SqJgRXUtJgGtT4Mt5SHg0V9iEiBSgxK2/7pRyYKkEbHEwLg2LDWK09vr4CpnTFzg8Ef+1EUXTS41ATx+IbXykRGOhPkCGOqOtcUjAXHkpZTnMLg4QKBgEQrtHifC9G4kIs3REZ7SWpzUaJDPg6KCjmtr6kOVwSvI0H7NjSm43S5GntaE9/7VmSBS2CGWx15bzt6rvlYPp5Iyj9JtTUqJ26WiuArLcoMa+r74Ol41JcKqF2RiFXwNucrpUkyyrXkBSLnm6wp3vOPkRUaAgc95WE83aBm+AAb";

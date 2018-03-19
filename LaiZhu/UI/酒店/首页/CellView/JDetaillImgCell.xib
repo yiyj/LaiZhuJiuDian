@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="JDetaillImgCell" rowHeight="93" id="KGk-i7-Jjw" customClass="JDetaillImgCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="103.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="酒店详情ImgCell" translatesAutoresizingMaskIntoConstraints="NO" id="Hpy-FP-2a0">
+                        <rect key="frame" x="15" y="15" width="100" height="74"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="pyv-op-qqA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Standard room" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4U-O7-bMR">
+                        <rect key="frame" x="122" y="20" width="102" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1.2m+1.2m, double bed" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biE-am-KYB">
+                        <rect key="frame" x="231" y="17" width="84" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.75686274509803919" green="0.75686274509803919" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retail price: $399" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5G-Od-zZc">
+                        <rect key="frame" x="122" y="41" width="86.5" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIP Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnG-Ny-fHH">
+                        <rect key="frame" x="122" y="57.5" width="55" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥319" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZF-Fi-P6W">
+                        <rect key="frame" x="179" y="55" width="39" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.74901960784313726" green="0.63529411764705879" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hey-gu-SEb">
+                        <rect key="frame" x="245" y="57" width="60" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="L1j-ew-ek8"/>
+                            <constraint firstAttribute="height" constant="27" id="VlB-tn-d2g"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="Booking" backgroundImage="附近去预订"/>
+                        <connections>
+                            <action selector="ordingClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dgg-ll-bSj"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YqU-1C-qyP">
+                        <rect key="frame" x="0.0" y="103" width="320" height="0.5"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="BY9-07-NZp"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Concession¥80" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUz-kr-ZXV">
+                        <rect key="frame" x="122" y="79" width="115" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.75686274509803919" green="0.75686274509803919" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="V4U-O7-bMR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="57C-6Z-zEP"/>
+                    <constraint firstItem="tZF-Fi-P6W" firstAttribute="leading" secondItem="TnG-Ny-fHH" secondAttribute="trailing" constant="2" id="6Bi-pN-Opa"/>
+                    <constraint firstAttribute="bottom" secondItem="Hpy-FP-2a0" secondAttribute="bottom" constant="15" id="7Px-pa-2z7"/>
+                    <constraint firstItem="E5G-Od-zZc" firstAttribute="leading" secondItem="V4U-O7-bMR" secondAttribute="leading" id="7iP-39-IDm"/>
+                    <constraint firstItem="TnG-Ny-fHH" firstAttribute="leading" secondItem="E5G-Od-zZc" secondAttribute="leading" id="7xe-Tg-Bff"/>
+                    <constraint firstItem="Hey-gu-SEb" firstAttribute="leading" secondItem="cUz-kr-ZXV" secondAttribute="trailing" constant="8" id="IAt-9S-7O5"/>
+                    <constraint firstItem="Hey-gu-SEb" firstAttribute="centerY" secondItem="tZF-Fi-P6W" secondAttribute="centerY" constant="5" id="MYS-Jx-s3V"/>
+                    <constraint firstItem="biE-am-KYB" firstAttribute="centerY" secondItem="V4U-O7-bMR" secondAttribute="centerY" id="NhJ-b9-bfa"/>
+                    <constraint firstItem="cUz-kr-ZXV" firstAttribute="top" secondItem="tZF-Fi-P6W" secondAttribute="bottom" constant="3" id="RcI-Uh-BI7"/>
+                    <constraint firstAttribute="trailing" secondItem="Hey-gu-SEb" secondAttribute="trailing" constant="15" id="WOi-kT-OXS"/>
+                    <constraint firstAttribute="trailing" secondItem="YqU-1C-qyP" secondAttribute="trailing" id="Xso-QJ-g4u"/>
+                    <constraint firstItem="cUz-kr-ZXV" firstAttribute="leading" secondItem="TnG-Ny-fHH" secondAttribute="leading" id="YLq-Uz-KRo"/>
+                    <constraint firstItem="biE-am-KYB" firstAttribute="leading" secondItem="V4U-O7-bMR" secondAttribute="trailing" constant="7" id="cuE-yd-gFi"/>
+                    <constraint firstItem="Hpy-FP-2a0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="dUW-WQ-WbA"/>
+                    <constraint firstAttribute="bottom" secondItem="YqU-1C-qyP" secondAttribute="bottom" id="dk4-gE-dza"/>
+                    <constraint firstItem="Hpy-FP-2a0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ebl-B7-6TJ"/>
+                    <constraint firstItem="YqU-1C-qyP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fgE-HP-9bZ"/>
+                    <constraint firstItem="tZF-Fi-P6W" firstAttribute="centerY" secondItem="TnG-Ny-fHH" secondAttribute="centerY" id="jod-j7-d6F"/>
+                    <constraint firstItem="E5G-Od-zZc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-5" id="jyB-aO-M43"/>
+                    <constraint firstItem="V4U-O7-bMR" firstAttribute="leading" secondItem="Hpy-FP-2a0" secondAttribute="trailing" constant="7" id="mBe-8B-98J"/>
+                    <constraint firstAttribute="bottom" secondItem="TnG-Ny-fHH" secondAttribute="bottom" constant="30" id="qS5-YE-urg"/>
+                    <constraint firstAttribute="trailing" secondItem="biE-am-KYB" secondAttribute="trailing" constant="5" id="rXl-K4-8Uc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="generPrice" destination="E5G-Od-zZc" id="DnR-S1-Tjw"/>
+                <outlet property="imgView" destination="Hpy-FP-2a0" id="jPh-gH-MQy"/>
+                <outlet property="memPrice" destination="tZF-Fi-P6W" id="VGa-Dd-AAq"/>
+                <outlet property="type" destination="V4U-O7-bMR" id="eTH-XU-TeI"/>
+                <outlet property="typeInfro" destination="biE-am-KYB" id="rWA-PI-4Gg"/>
+                <outlet property="yhMoney" destination="cUz-kr-ZXV" id="Kgz-1F-uZI"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="29"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="酒店详情ImgCell" width="100" height="74"/>
+        <image name="附近去预订" width="80" height="27"/>
+    </resources>
+</document>
